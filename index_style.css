@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	padding: 40px;
+}
+
+main{
+	position: relative;
+	top: 70vh;
+	height: 70vh;
+	padding: 0;
+	z-index: 10;
+}
+
+
+
+#name{
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 30px;
+	color: #42C3D1;
+	z-index: 10;
+}
+
+
+
+.nav-link{
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.navbar-toggler{
+	border-width: 0px;
+}
+
+.navbar-nav li{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.project-container{
+	height: 350px;
+	position: relative;
+	margin-left:auto;
+    margin-right:auto;
+    background-color: "white";
+}
+
+.project-title{
+
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+
+
+
+#hero{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	background-color: white;
+}
+
+
+
+#description-short{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	font-weight: 400;
+	z-index: 20;
+}
+
+#description-long{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	font-weight: 200;
+	z-index: 20;
+}
+
+#banner{
+	position: relative;
+	top: 100px;
+}
+
+
+footer{
+	top: 80vh;
+	font-family: 'Titillium Web', sans-serif;
+	color: gray;
+	height: 200px;
+
+}
+
+
+
+
