@@ -105,5 +105,15 @@ footer{
 }
 
 
+#bookshelf{
+	background-image: url('bookshelf/pic/cover1.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
 
-
+.project-title{
+	font-family: 'Titillium Web', sans-serif;
+	visibility: hidden;
+	color: black;
+}
