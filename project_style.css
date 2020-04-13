@@ -7,6 +7,7 @@
 	padding: 40px;
 }
 
+/*header*/
 #name{
 	font-family: 'Josefin Sans', sans-serif; 
 	font-size: 30px;
@@ -30,16 +31,20 @@
 }
 
 
+/*project*/
+h1{
 
-.banner img{
-	width: 50%;
+	color: #42C3D1;
+	padding-bottom: 40px;
 }
 
-.banner{
-	height: 300px;
+h4{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
 }
 
-.jumbotron {
-  background-image: url("pic/cover1.jpg");
-  background-size: cover;
+p{
+	color: gray;
+	font-size: 20px;
 }
+
