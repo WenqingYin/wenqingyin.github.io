@@ -20,28 +20,30 @@
   </head>
 
   <body>
-    <header class="container sticky-top">
+    <header class="container">
       <div class="row">
         <div class="col-sm-9 id="name-wrapper">
           <p id="name">WENQING. Y</p>
         </div>
-        <nav class="col-sm-3 justify-content-sm-end navbar navbar-expand-md navbar-light ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> 
+        <nav class="col-sm-3 justify-content-sm-end navbar navbar-expand-md navbar-light navbar-static-top">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> 
 
-          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="../../index.html" id="projects" onClick="scroll(0, 100)">Project<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="play/play.html" id="play">Play</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="about">About</a>
-              </li>
-            </ul>
+            <div class="collapse navbar-collapse navbar-fixed-top" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../../index.html" id="projects" onClick="scroll(0, 100)">Project<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="play/play.html" id="play">Play</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="about">About</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
@@ -51,12 +53,58 @@
       <!-- banner -->
       <div class="row">
         <div class="col">
-          <img src="pic/banner.jpg" class="img-fluid cover-img" alt="Responsive image">
+          <!--Carousel Wrapper-->
+          <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-2" data-slide-to="1"></li>
+              <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="view">
+                  <img class="d-block w-100" src="pic/banner.jpg">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img class="d-block w-100" src="pic/cover1.jpg" alt="Second slide">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img class="d-block w-100" src="pic/cover2.jpg" alt="Third slide">
+                  <div class="mask rgba-black-light"></div>
+                </div>
+              </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+          </div>
+          <!--/.Carousel Wrapper-->
         </div>
       </div>
 
+
+
       <!-- overview -->
-      <div class="container">
+      <div class="container-flex content">
         <div class="row">
           <div class="col">
             <h1>Geoform Booktable</h1>
@@ -64,38 +112,23 @@
         </div>
 
         <div class="row">
-          <div class="col-md-5">
-            <h4>Project Overview</h2>
+          <div class="col-sm-5">
+            <h4>Project Overview</h4><br><p>Project Overview Project OverviewProject OverviewProject OverviewProject Overview</p>
           </div>
-          <div class="col-md-3">
-            <h4>Role</h4>
+          <div class="col-sm-3">
+            <h4>Role</h4><br><p>Product designer; Prototyper; Maker</p>
           </div>
-          <div class="col-md-2">
-            <h4>Team</h4>
+          <div class="col-sm-2">
+            <h4>Team</h4><br><p>Individual</p>
           </div>
-          <div class="col-md-2">
-            <h4>Timeline</h4>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-5">
-            <p>Project Overview Project OverviewProject OverviewProject OverviewProject Overview</p>
-          </div>
-          <div class="col-md-3">
-            <p>Product designer; Prototyper; Maker</p>
-          </div>
-          <div class="col-md-2">
-            <p>Individual</p>
-          </div>
-          <div class="col-md-2">
-            <p>Mar2020-Apr2020</p>
+          <div class="col-sm-2">
+            <h4>Timeline</h4><br><p>Mar2020-Apr2020</p>
           </div>
         </div>
       </div>
 
-        <!-- ideation -->
-      <div class="container">
+      <!-- ideation -->
+      <div class="container-flex content">
         <div class="row">
           <div class="col">
             <h4>Ideation</h4>
@@ -103,17 +136,74 @@
         </div>
 
         <div class="row">
-          <div class="col-md-7">
-            <img src="pic/ideation1.png" class="img-fluid cover-img" alt="Responsive image">
-          </div>
-          <div class="col-md-5">
-            <p>Sketches:<br>In order to quickly record the ideas, I choose orthographic view to experiment with the composition of the boards</p>
+          <div class="col-sm-6">
+            <p>Quick sketches is always a good way to start ideating. I choose orthographic view to experiment with the composition of the boards</p>
             <p></p>
-            <p>What to consider:<br>- How to show the book<br>- The direction of the book<br>- The balance of the whole structure<br>- Aethetics</p>
+            <p><span class="font-weight-bold">What to consider:</span><br>- How to show the book<br>- The direction of the book<br>- The balance of the whole structure<br>- Aesthetics</p>
+          </div>
 
+          <div class="col-sm-6">
+            <img src="pic/ideation1.png" class="img-fluid" alt="Responsive image">
+          </div>
+          
+        </div>
+      </div>
+
+
+
+      <!-- sketchmodel -->
+      <div class="container-flex content">
+        <div class="row">
+          <div class="col">
+            <h4>Sketch Model</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="pic/sketch_model1.png" class="img-fluid" alt="Responsive image">
+            <p>In order to evaluate the ideas, I selected four ideas that I wanted to pursue and made them into four foamcore 1:4 models. The final idea I want to pursue is the last model.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="pic/form_analysis.png" class="img-fluid" alt="Responsive image">
+            <p><br>Based on the feedback I got on my form, I found several problems with my form.<br><span class="font-weight-bold">1. Symmetry: </span>The whole form is too symmetrical that makes it appears less dynamic and aesthetic.<br><span class="font-weight-bold">2. Emphasis: </span>While the book is put on the shelf, the emphasis of the who form shifts right, which makes it appear unbalanced.<br><span class="font-weight-bold">3. Fragility: </span>The middle panel will be very fragile while being fabricated with wood. This is because the shape of this panel will be “H” which may cause breaks in the middle.</p>
+          </div>
+        </div>  
+      </div> 
+
+
+      <!-- iterations -->
+      <div class="container-flex content">
+        <div class="row">
+          <div class="col">
+            <h4>Variations / Iterations</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <br>
+            <img src="pic/variation_sketch.png" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="col-sm-7 offset-sm-1">
+            <div class="row">
+              <p class="font-weight-bold">Variation 1</p>
+              <img src="pic/variation1.png" class="img-fluid" alt="Responsive image">
+              <p><br>For this variation, I made the form asymmetrical, which makes it more dynamic. In addition, such asymmetry makes the form more balanced while the book is placed inside. However, a pitfall of this form is that it may appear too blocky when viewing it from the front (shown in the second picture). In order to solve that, I plan make this face narrower and less symmetrical.</p>
+            </div>
+            <div class="row">
+              <p class="font-weight-bold">Variation 2</p>
+              <img src="pic/variation2.png" class="img-fluid" alt="Responsive image">
+              <p><br>For this variation, I mainly improved the details of the shelf by utilizing the wood grain. For example, in the second picture, I cut the front panel to reveal the end grain of the piece behind it. As the end grain has a unique texture and color, it will be more aesthetically pleasing and intriguing.</p>
+            </div>
+            <div class="row">
+              <p class="font-weight-bold">Variation 3</p>
+              <img src="pic/variation3.png" class="img-fluid" alt="Responsive image">
+              <p><br>For this iteration, I wanted to reduce the material in each panel in order to make them less bulky and more dynamic. As I’m not sure how to cut the material, I decided to model it in Solidworks and try out different ideas. However, what I need to improve is to have a more valid utility rationale for making the cut on top of the aesthetics choice.</p>
+            </div>
           </div>
         </div>
       </div>
+
+      
 
     </main>
 
@@ -122,5 +212,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="../project_interaction.js" type="text/javascript"></script>
   </body>
 </html>

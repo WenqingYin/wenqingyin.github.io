@@ -7,6 +7,7 @@
 	padding: 40px;
 }
 
+
 /*header*/
 #name{
 	font-family: 'Josefin Sans', sans-serif; 
@@ -30,8 +31,12 @@
 	padding-right:20px;
 }
 
+/*images*/
+.center-picture{
+	width: 60%;
+}
 
-/*project*/
+/*words*/
 h1{
 
 	color: #42C3D1;
@@ -45,6 +50,14 @@ h4{
 
 p{
 	color: gray;
-	font-size: 20px;
+	font-size: 16px;
+
 }
 
+
+.content{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

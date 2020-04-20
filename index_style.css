@@ -46,18 +46,27 @@ main{
 	margin-left:auto;
     margin-right:auto;
     background-color: "white";
+    text-align: center;
 }
 
 .project-title{
-
+	color: 'white';
 	margin: 0;
   	position: absolute;
   	top: 50%;
   	left: 50%;
  	transform: translate(-50%, -50%);
+ 	font-family: 'Titillium Web', sans-serif;
+ 	font-size: 40px;
+	opacity: 0;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	z-index: 20;
 }
 
-
+.time{
+	font-size: 16px;
+}
 
 
 #hero{
@@ -95,6 +104,17 @@ main{
 	top: 100px;
 }
 
+#passion{
+	font-size: 20px;
+}
+
+#HCI{
+	color: #42C3D1;
+}
+
+#product-design{
+	color: #42C3D1;
+}
 
 footer{
 	top: 80vh;
@@ -112,8 +132,16 @@ footer{
 	height: auto;
 }
 
-.project-title{
-	font-family: 'Titillium Web', sans-serif;
-	visibility: hidden;
-	color: black;
+
+
+.cover-img{
+	filter: brightness(1);
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+@keyframes upward{
+	from{transform: translateY(-10px)}
+	to{transoform: translateY(0px)}
 }
