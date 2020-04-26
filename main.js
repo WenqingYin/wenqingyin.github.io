@@ -24,10 +24,13 @@ for (var i=0; i<projects.length; i++){
 
 
 projectBtn.onclick=function(){
+	var h = window.innerHeight;
 	window.scroll({
-  		top: 800,
+  		top: h,
   		left: 0,
   		behavior: 'smooth'
 	});
 	console.log('yes');
 }
+
+
