@@ -1,5 +1,5 @@
 var bubbleNum=5;
-var speedBook=[-3,-2,-1,1,2,3];
+var speedBook=[-5,-4,-3,-2,-1,1,2,3,4,-5];
 var bubbles=[];
 
 function windowResized(){
