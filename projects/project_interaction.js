@@ -1,4 +1,5 @@
 var contentBlock=document.getElementsByClassName("content");
+var projectBtn=document.getElementById("projects"); 
 
 //alternate background color  
 for (var i=0; i<contentBlock.length; i++){
@@ -33,3 +34,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+
+

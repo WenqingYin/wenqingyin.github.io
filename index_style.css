@@ -7,9 +7,10 @@
 	height: 100px;
 }
 
-.container{
-	padding: 40px;
+header{
+	padding-top: 40px;
 }
+
 
 main{
 	position: relative;
@@ -28,10 +29,8 @@ main{
 }
 
 
-
 .nav-link{
 	font-family: 'Titillium Web', sans-serif;
-
 }
 
 .navbar-toggler{
@@ -44,12 +43,10 @@ main{
 }
 
 .project-container{
-	height: 350px;
 	position: relative;
-	margin-left:auto;
-    margin-right:auto;
     background-color: "white";
     text-align: center;
+
 }
 
 .project-title{
@@ -93,6 +90,8 @@ main{
 	color: black;
 	font-weight: 400;
 	z-index: 20;
+	opacity: 0;
+	animation: upward 0.8s 0.2s ease forwards;
 }
 
 #description-long{
@@ -100,15 +99,23 @@ main{
 	color: black;
 	font-weight: 200;
 	z-index: 20;
+	opacity: 0;
+	animation: upward 0.8s 0.8s ease forwards;
 }
 
 #banner{
 	position: relative;
-	top: 100px;
+	padding-top: 30vh;
+}
+
+#chinese{
+	font-size:30px;
 }
 
 #passion{
 	font-size: 20px;
+	opacity: 0;
+	animation: upward 0.8s 1.6s ease forwards;
 }
 
 #HCI{
@@ -117,6 +124,12 @@ main{
 
 #product-design{
 	color: #42C3D1;
+}
+
+
+@keyframes upward{
+	from{transform: translateY(20px); opacity: 0;}
+	to{transoform: translateY(0px); opacity:1;}
 }
 
 footer{
@@ -128,23 +141,10 @@ footer{
 }
 
 
-#bookshelf{
-	background-image: url('bookshelf/pic/cover1.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
-}
-
-
-
 .cover-img{
 	filter: brightness(1);
 	transition: all 0.3s ease-in-out;
+	object-fit: contain;
+
 }
 
-
-
-@keyframes upward{
-	from{transform: translateY(-10px)}
-	to{transoform: translateY(0px)}
-}
