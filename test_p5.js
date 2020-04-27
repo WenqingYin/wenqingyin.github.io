@@ -35,7 +35,7 @@ function Bubble(){
 
 	
 	this.display=function(){
-		image(imgSrc, this.x, this.y, this.r, this.r);
+		image(imgSrc, this.x, this.y);
 	}
 
 	this.move=function(){
