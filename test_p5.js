@@ -48,11 +48,11 @@ function Bubble(){
 		var distanceYUp=this.y-this.r;
 		var distanceYDown=this.y+this.r; 
 
-		if (distanceXRight<=-10 || distanceXRight>=windowWidth+10){
+		if (distanceXRight<=0 || distanceXRight>=windowWidth){
 			this.speedX=-this.speedX;
 		}
 
-		if (distanceYUp<=-10 || distanceYDown>=windowHeight+10){
+		if (distanceYUp<=0 || distanceYDown>=windowHeight){
 			this.speedY=-this.speedY;
 		}
 
