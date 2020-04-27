@@ -43,10 +43,8 @@ main{
 }
 
 .project-container{
-	position: relative;
     background-color: "white";
     text-align: center;
-
 }
 
 .project-title{

@@ -1,4 +1,4 @@
-var bubbleNum=5;
+var bubbleNum=3;
 var speedBook=[-2,-1,1,2];
 var bubbles=[];
 
