@@ -1,5 +1,5 @@
 var bubbleNum=3;
-var speedBook=[-2,-1,1,2];
+var speedBook=[-4,-2,-1,1,2,3,4];
 var bubbles=[];
 
 function windowResized(){
@@ -29,7 +29,7 @@ function setup(){
 function Bubble(){
 	this.x=random(0,width);
 	this.y=random(0,height);
-	this.r=random(100,300);
+	this.r=random(50,100);
 	this.speedX=random(speedBook);
 	this.speedY=random(speedBook);
 
