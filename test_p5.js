@@ -23,19 +23,19 @@ function setup(){
 	for (var i=0; i<bubbleNum; i++){
 		bubbles[i]=new Bubble();
 	}
-	image(imgSrc, 10, 10, 50, 50);
+	//image(imgSrc, 10, 10, 50, 50);
 }
 
 function Bubble(){
 	this.x=random(0,width);
 	this.y=random(0,height);
-	this.r=random(300,400);
+	this.r=random(100,300);
 	this.speedX=random(speedBook);
 	this.speedY=random(speedBook);
 
 	
 	this.display=function(){
-		image(imgSrc, this.x, this.y);
+		image(imgSrc, this.x, this.y, this.r, this.r);
 	}
 
 	this.move=function(){
