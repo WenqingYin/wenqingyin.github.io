@@ -16,7 +16,7 @@ function preload() {
 
 function setup(){
 	canvas=createCanvas(windowWidth, windowHeight);
-	canvas.position(0,0);
+	canvas.position(0,0);  
 	background('white');
 	canvas.style("z-index","-1")
 	//add bubbles
@@ -29,7 +29,7 @@ function setup(){
 function Bubble(){
 	this.x=random(0,width);
 	this.y=random(0,height);
-	this.r=random(400,600);
+	this.r=random(700,1000);
 	this.speedX=random(speedBook);
 	this.speedY=random(speedBook);
 
