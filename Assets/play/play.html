@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <title>Wenqing - Play</title>
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="play_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -20,7 +23,7 @@
     <header class="container-flex fixed-top">
       <div class="row">
         <div class="col-sm-9 id="name-wrapper">
-          <p id="name">WENQING. Y</p>
+          <a class="nav-link" href=../../index.html><p id="name">WENQING. Y</p></a>
         </div>
         <nav class="col-sm-3 justify-content-sm-end navbar navbar-expand-md navbar-light ">
           <div class="container-fluid">
@@ -48,15 +51,58 @@
     </header>
 
     <!-- projects -->
-    <div class="spacer container">
+    <div id="all-projects" class="container-flex">
       <div class="row">
-        <div class="col">
+
+        <!-- projects left column -->
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col project-container" data-aos="fade-up-right">
+              <a href=#>
+                <h2 class="project-title">Photography<br><span class="time">2018-2020</span></h2>
+                <img src="pic/photography_thumbnail.jpg" class="img-fluid cover-img img-responsive" alt="Photography">
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col project-container" data-aos="fade-up-right">
+              <a href=#>
+                <h2 class="project-title">Sensitive Flower<br><span class="time">Nov 2019</span></h2>
+                <img src="pic/flower_thumbnail.gif" class="img-fluid cover-img img-responsive" alt="Sensitive Flower">
+              </a>
+            </div>
+          </div>
         </div>
+
+        <!-- projects right column -->
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col project-container" data-aos="fade-up-left">
+              <a href=#>
+                <h2 class="project-title">Game Design<br><span class="time">Jul 2019</span></h2>
+                <img src="pic/game_thumbnail.gif" class="img-fluid cover-img img-responsive" alt="Game design">
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col project-container" data-aos="fade-up-left">
+              <a href=#>
+                <h2 class="project-title">Marble Maze Melody<br><span class="time">Jan 2020</span></h2>
+                <img src="pic/marble_thumbnail.jpg" class="img-fluid cover-img img-responsive" alt="Marble Maze Melody">
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div>
-      <p>This is the play page</p>
+
+
+
+
 
 
 
@@ -67,7 +113,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- customize -->
-    <script src="main.js" type="text/javascript"></script>
+    <script src="../main.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 

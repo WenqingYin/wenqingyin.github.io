@@ -34,8 +34,47 @@ header{
 }
 
 
+.cover-img{
+	filter: brightness(1);
+	transition: all 0.3s ease-in-out;
+	object-fit: contain;
+	width: 100%;
+}
 
 
+.project-container{
+    background-color: "white";
+    text-align: center;
+}
+
+.project-title{
+	color: 'white';
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-family: 'Titillium Web', sans-serif;
+ 	font-size: 40px;
+	opacity: 0;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	z-index: 20;
+}
+
+.time{
+	font-size: 16px;
+}
+
+#all-projects{
+	padding-top: 180px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.row{
+	padding-top: 30px;
+}
 
 @keyframes upward{
 	from{transform: translateY(20px); opacity: 0;}
