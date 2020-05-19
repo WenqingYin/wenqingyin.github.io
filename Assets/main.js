@@ -1,12 +1,12 @@
+
+
+
 var projects=document.getElementsByClassName("project-container");
 var projectBtn=document.getElementById("projects"); 
 var projectImg=document.getElementsByClassName("project-img");
 
 
 //mouseover, change the background image, display the title 
-
-
-
 for (var i=0; i<projects.length; i++){
 	var currProject=projects[i];
 	currProject.onmouseover=function(){

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+nav{
+  margin-top: 30px !important;
+}
+
+.navbar-brand{
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 25px !important;
+  color: #42C3D1 !important;
+}
+
+
+#name{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 30px;
+  color: #42C3D1;
+  z-index: 10;
+}
+
+
+.nav-link{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-toggler{
+  border-width: 0px;
+}
+
+.navbar-nav li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+  
+.project-container{
+    background-color: "white";
+    text-align: center;
+}
+
+.project-title{
+    color: 'white';
+    margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+     transform: translate(-50%, -50%);
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 40px;
+    opacity: 0;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.time{
+    font-size: 16px;
+}
+
+
+@keyframes upward{
+    from{transform: translateY(20px); opacity: 0;}
+    to{transoform: translateY(0px); opacity:1;}
+}
+
+footer{
+    top: 80vh;
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+    height: 200px;
+
+}
+
+
+.cover-img{
+    filter: brightness(1);
+    transition: all 0.3s ease-in-out;
+    object-fit: contain;
+
+}
+
+

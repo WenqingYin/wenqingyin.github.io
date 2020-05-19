@@ -1,3 +1,5 @@
+
+
 var contentBlock=document.getElementsByClassName("content");
 var projectBtn=document.getElementById("projects"); 
 

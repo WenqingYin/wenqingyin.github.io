@@ -29,7 +29,7 @@ function setup(){
 function Bubble(){
 	this.x=random(0,windowWidth);
 	this.y=random(0,windowHeight);
-	this.r=random(700,1000);
+	this.r=random(1000,1200);
 	this.speedX=random(speedBook);
 	this.speedY=random(speedBook);
 

@@ -4,36 +4,6 @@
 }
 
 
-
-
-.container{
-	padding: 40px;
-}
-
-
-/*header*/
-#name{
-	font-family: 'Josefin Sans', sans-serif; 
-	font-size: 30px;
-	color: #42C3D1;
-	z-index: 10;
-}
-
-
-.nav-link{
-	font-family: 'Titillium Web', sans-serif;
-
-}
-
-.navbar-toggler{
-	border-width: 0px;
-}
-
-.navbar-nav li{
-	padding-left:20px;
-	padding-right:20px;
-}
-
 /*images*/
 .center-picture{
 	width: 60%;
@@ -41,7 +11,6 @@
 
 /*words*/
 h1{
-
 	color: #42C3D1;
 	padding-bottom: 40px;
 }
@@ -144,4 +113,29 @@ p{
   .modal-content {
     width: 100%;
   }
+}
+
+
+nav{
+  margin-top: 30px !important;
+}
+
+.navbar-brand{
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 25px !important;
+  color: #42C3D1 !important;
+}
+
+
+.nav-link{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-toggler{
+  border-width: 0px;
+}
+
+.navbar-nav li{
+  padding-left:20px;
+  padding-right:20px;
 }

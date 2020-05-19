@@ -3,10 +3,6 @@
   <head>
     <title>Wenqing Yin</title>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="Assets/index_style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -17,7 +13,6 @@
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,44 +20,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="Assets/index_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
 
   <body>
-    <header class="container-flex fixed-top">
-      <div class="row">
-        <div class="col-sm-9 id="name-wrapper">
-          <a class="nav-link" href=#><p id="name">WENQING. Y</p></a>
-        </div>
-        <nav class="col-sm-3 justify-content-sm-end navbar navbar-expand-md navbar-light ">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> 
-
-            <div class="collapse navbar-collapse navbar-fixed-top" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#" id="projects" onClick="scroll(0, 100)">Project<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Assets/play/play.html" id="play">Play</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Assets/about/about.html" id="about">About</a>
-                </li>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">WENQING Y.</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Assets/projects/projects.html">Project</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Assets/play/play.html">Play</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Assets/about/about.html">About</a></li>
               </ul>
-            </div>
           </div>
-        </nav>
       </div>
-
-    </header>
-
-    <section id="p5-holder">
-    </section>
+    </nav>
 
 
-    <div id="banner" class="container">
+
+    <div class="banner container">
       <div class="row">
         <div class="col-md-8">
           <h1 id="description-short">Hola <span id="chinese">🙌</span></h1>
@@ -78,83 +59,6 @@
 
 
 
-    <!-- projects -->
-    <main id="anchor" class="container-flex">
-      <div class="row">
-
-        <!-- left side -->
-        <div class="col-sm-6">
-
-          <div class="row">
-            <div id="bookshelf" class="col project-container overflow-hidden" data-aos="fade-up-right">
-              <a href='Assets/projects/bookshelf/geoform_bookshelf.html'>
-                <h2 class="project-title">Geoform Bookshelf<br><span class="time">Mar 2020</span></h2>
-                <img src="Assets/projects/bookshelf/pic/thumbnail.jpg" class="img-fluid cover-img" alt="Geoform Bookshelf">
-              </a>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col project-container overflow-hidden" data-aos="fade-up-right">
-              <a href=#>
-                <h2 class="project-title">EasyFix<br><span class="time">Feb 2020</span></h2>
-                <img src="Assets/projects/easyfix/pic/thumbnail2.jpg" class="img-fluid cover-img img-responsive" alt="EasyFix">
-              </a>
-             </div>
-          </div>
-
-
-           <div class="row">
-            <div class="col project-container overflow-hidden" data-aos="fade-up-right">
-              <a href=#>
-                <h2 class="project-title">Alarm Slipper<br><span class="time">Sep 2017</span></h2>
-                <img src="Assets/projects/alarm_slipper/pic/thumbnail.jpg" class="img-fluid cover-img img-responsive" alt="Alarm Slipper">
-              </a>
-            </div>
-          </div>
-          
-        </div>
-
-        <!-- right side -->
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="col project-container overflow-hidden" data-aos="fade-up-left">
-              <a href=#>
-                <h2 class="project-title">Flowform Spetula<br><span class="time">Feb 2020</span></h2>
-                <img src="Assets/projects/spetula/pic/thumbnail1.jpg" class="img-fluid cover-img img-responsive" alt="Flowform Spetula">
-              </a>
-             </div>
-          </div>
-
-          <div class="row">
-            <div class="col project-container overflow-hidden" data-aos="fade-up-left">
-              <a href=#>
-                <h2 class="project-title">Hybrid Museum Exhibition<br><span class="time">Sep 2019</span></h2>
-                <img src="Assets/projects/museum/pic/thumbnail2.jpg" class="img-fluid cover-img" alt="Hybrid Museum Exhibition">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-
-      <!-- footer -->
-      <footer class="row">
-        <div class="col"> 
-          <p class="text-center align-bottom">@ Wenqing Yin 2020</p>
-        </div>
-      </footer>
-
-    </main>
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -162,18 +66,17 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- p5 library -->
+    <script src="test_p5.js"></script>
 
+    <!-- AOS library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- customize -->
     <script src="Assets/main.js" type="text/javascript"></script>
-
-    <script src="test_p5.js"></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-	  AOS.init();
-	</script>
-
   </body>
 </html>
 
