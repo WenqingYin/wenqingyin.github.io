@@ -41,8 +41,6 @@
       </div>
     </nav>
 
-
-
     <div class="banner container">
       <div class="row">
         <div class="col-md-8">
@@ -58,7 +56,9 @@
     </div>
 
 
-
+    <div class="spinner-grow" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -77,6 +77,11 @@
 
     <!-- customize -->
     <script src="Assets/main.js" type="text/javascript"></script>
+    <script>
+      $(window).ready(function() {
+        $('.spinner-grow').hide();
+      });
+    </script>
   </body>
 </html>
 
