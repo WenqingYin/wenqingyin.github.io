@@ -6,6 +6,7 @@
 
 nav{
   margin-top: 30px !important;
+  background-color: bisque;
 }
 
 .navbar-brand{
@@ -37,10 +38,16 @@ nav{
 }
 
 
+main{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 50px;
+}
   
 .project-container{
-    background-color: "white";
+    backgroundcolor: "white";
     text-align: center;
+    margin-top: 35px;
 }
 
 .project-title{

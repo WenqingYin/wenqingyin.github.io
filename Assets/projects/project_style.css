@@ -11,7 +11,7 @@
 
 /*words*/
 h1{
-	color: #42C3D1;
+  font-family: 'Titillium Web', sans-serif;
 	padding-bottom: 40px;
 }
 
@@ -23,13 +23,13 @@ h4{
 p{
 	color: gray;
 	font-size: 16px;
-
 }
 
 
+
 .content{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 25vw;
+	padding-right: 25vw;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -38,9 +38,6 @@ p{
 	cursor: pointer;
 	transition: 0.3s;
 }
-
-
-
 
 
 
@@ -117,13 +114,14 @@ p{
 
 
 nav{
-  margin-top: 30px !important;
+  position: static;
+  margin-top: 30px !important; 
 }
 
 .navbar-brand{
   font-family: 'Josefin Sans', sans-serif !important;
   font-size: 25px !important;
-  color: #42C3D1 !important;
+  color: #42C3D1 !important; 
 }
 
 
@@ -138,4 +136,28 @@ nav{
 .navbar-nav li{
   padding-left:20px;
   padding-right:20px;
+  
+}
+
+/* go-up button */
+.scrollToTop{
+  width:100px; 
+  height:100px;
+  padding:10px; 
+  text-align:center; 
+
+  font-family: 'Titillium Web', sans-serif;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top:85vh;
+  right:40px;
+  display:none;
+  z-index: 100;
+  /*background: url('arrow_up.png') no-repeat 0px 20px;*/
+}
+
+.scrollToTop:hover{
+  text-decoration:none;
+  color:  #42C3D1;
 }
