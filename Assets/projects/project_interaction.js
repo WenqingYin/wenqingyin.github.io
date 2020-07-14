@@ -1,6 +1,6 @@
 
 
-var contentBlock=document.getElementsByClassName("content");
+var contentBlock=document.getElementsByClassName("content-holder");
 var projectBtn=document.getElementById("projects"); 
 
 //alternate background color  

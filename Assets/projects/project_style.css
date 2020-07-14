@@ -15,6 +15,11 @@ h1{
 	padding-bottom: 40px;
 }
 
+h3{
+  font-size: 35px !important;
+  color: gray;
+}
+
 h4{
 	font-family: 'Titillium Web', sans-serif;
 	color: black;
@@ -22,21 +27,34 @@ h4{
 
 p{
 	color: gray;
-	font-size: 16px;
+	font-size: 18px;
 }
 
+.align-middle-vertically{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
 
+.colored-words{
+  color:  #42C3D1;
+}
 
-.content{
+.content-holder{
 	padding-left: 25vw;
 	padding-right: 25vw;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-row{
+
 }
 
 .img-fluid{
 	cursor: pointer;
-	transition: 0.3s;
+  transition: 0.3s;
+  background-color: transparent;
+  border: none;
 }
 
 
@@ -159,5 +177,5 @@ nav{
 
 .scrollToTop:hover{
   text-decoration:none;
-  color:  #42C3D1;
+  color: gray;
 }
