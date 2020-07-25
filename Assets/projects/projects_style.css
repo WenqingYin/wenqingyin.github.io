@@ -45,12 +45,16 @@ main{
 }
   
 .project-container{
-    backgroundcolor: "white";
+    background-color: "white";
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 5px !important;
     padding-right: 5px !important;
+}
+
+.project-container:hover{
+  cursor: pointer;
 }
 
 .project-title{
