@@ -41,7 +41,7 @@ nav{
 main{
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 0px;
+  margin-top: 30px;
 }
   
 .project-container{
@@ -49,8 +49,14 @@ main{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-radius: 0px;
+    
 }
 
 .project-container:hover{
@@ -65,7 +71,7 @@ main{
       left: 50%;
      transform: translate(-50%, -50%);
      font-family: 'Titillium Web', sans-serif;
-     font-size: 40px;
+     font-size: 30px;
     opacity: 0;
     color: white;
     transition: all 0.3s ease-in-out;
