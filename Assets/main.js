@@ -15,6 +15,7 @@ for (var i=0; i<projects.length; i++){
 		//this.getElementsByClassName('project-title')[0].style.animationName="upward";
 		//this.getElementsByClassName('project-title')[0].style.animationDuration='0.4s';
 		this.getElementsByClassName('cover-img')[0].style.filter='brightness(0.8)';
+		
 		this.style.cursor= 'pointer';
 	}
 	currProject.onmouseout=function(){
