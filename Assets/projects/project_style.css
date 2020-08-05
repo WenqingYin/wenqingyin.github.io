@@ -51,6 +51,14 @@ p{
   
 }
 
+.banner-background{
+  background-color: #92cfce !important;
+}
+
+.banner-words{
+  color: white !important;
+}
+
 .img-fluid{
 	cursor: pointer;
   transition: 0.3s;
