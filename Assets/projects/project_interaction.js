@@ -4,6 +4,7 @@ var contentBlock=document.getElementsByClassName("content-holder");
 var projectBtn=document.getElementById("projects"); 
 
 
+
 //alternate background color  
 for (var i=0; i<contentBlock.length; i++){
 	var currBlock=contentBlock[i];
