@@ -61,6 +61,16 @@ footer{
 
 .intro-words{
 	color: whitesmoke;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.paragraph{
+	font-size: 20px !important;
+
+}
+
+#quote{
+	color: gainsboro;
 }
 
 main{
