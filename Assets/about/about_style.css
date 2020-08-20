@@ -52,3 +52,17 @@ footer{
 	height: 200px;
 
 }
+
+#self-intro {
+	background-image: url(pic/long.png);
+	background-size: cover;
+	height: 100%;
+}
+
+.intro-words{
+	color: whitesmoke;
+}
+
+main{
+	margin-top: 50px;
+}
